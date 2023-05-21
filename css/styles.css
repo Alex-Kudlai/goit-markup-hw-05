@@ -93,12 +93,10 @@ img {
   display: flex;
   align-items: center;
 }
-
 .menu {
   display: flex;
   gap: 40px;
 }
-
 .current {
   color: #404bbf;
   position: relative;
@@ -119,13 +117,12 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--primary-background-color-theme-dark);
+  /* color: var(--primary-background-color-theme-dark); */
   padding: 24px 0;
   display: block;
   position: relative;
   transition: color var(--transition-duration-function);
 }
-
 .menu-list-item:hover,
 .menu-list-item:focus {
   color: var(--accent-color);
